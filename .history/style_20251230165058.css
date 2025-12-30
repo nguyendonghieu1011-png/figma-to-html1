@@ -1,0 +1,13 @@
+.container {
+  background-color: #9dbcf3;
+  height: 100px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.fa-youtube {
+  margin:auto;
+  font-size: 2rem;
+  color: rgb(255,0,0)
+}
