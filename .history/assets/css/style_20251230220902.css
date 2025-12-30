@@ -23,15 +23,11 @@ h1 {
 
 a {
   text-decoration-line: none;
+  margin-right: 20px;
 }
 
 .header {
-  background-color: #f4fbe1;
-}
-
-.header.fixed {
-  position: sticky;
-  top: -28px;
+  background-color: #e8f4c4;
 }
 
 .btn {
@@ -45,7 +41,7 @@ a {
   font-weight: 600;
 }
 
-.main.content {
+.main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
   margin-left: auto;
@@ -82,10 +78,6 @@ a {
 
 .header .btn-sign-up {
   min-width: 130px;
-}
-
-.header .action {
-  margin-left: 50px;
 }
 
 

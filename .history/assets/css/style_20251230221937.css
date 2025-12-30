@@ -26,7 +26,7 @@ a {
 }
 
 .header {
-  background-color: #f4fbe1;
+  background-color: #edf5d7;
 }
 
 .header.fixed {
@@ -82,10 +82,6 @@ a {
 
 .header .btn-sign-up {
   min-width: 130px;
-}
-
-.header .action {
-  margin-left: 50px;
 }
 
 

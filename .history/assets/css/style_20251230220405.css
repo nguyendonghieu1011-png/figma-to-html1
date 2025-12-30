@@ -10,7 +10,7 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   height: 1000rem;
-  
+  margin-top: 50px;
 }
 
 h1 {
@@ -23,15 +23,7 @@ h1 {
 
 a {
   text-decoration-line: none;
-}
-
-.header {
-  background-color: #f4fbe1;
-}
-
-.header.fixed {
-  position: sticky;
-  top: -28px;
+  margin-right: 20px;
 }
 
 .btn {
@@ -45,7 +37,7 @@ a {
   font-weight: 600;
 }
 
-.main.content {
+.main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
   margin-left: auto;
@@ -54,8 +46,7 @@ a {
 
 .header .body {
   display: flex;
-  align-items: baseline; /* or center*/
-  padding: 36px 0 8px
+  align-items: baseline;
 }
 
 .nav {
@@ -82,10 +73,6 @@ a {
 
 .header .btn-sign-up {
   min-width: 130px;
-}
-
-.header .action {
-  margin-left: 50px;
 }
 
 
