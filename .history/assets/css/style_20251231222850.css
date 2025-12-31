@@ -34,7 +34,6 @@ a {
 }
 
 .header.fixed {
-  z-index: 1;
   position: sticky;
   top: -28px;
 }
@@ -232,21 +231,12 @@ a {
   margin-top: 35px;
 }
 
-.hero .stats {
-  margin-top: 8px;
-}
-
 .hero .stats strong {
-  margin-right: 15px;
   color: black;
   font-family: var(--font-heading);
   font-size: 44px;
   font-weight: 700;
   line-height: 54px;
-}
-
-.hero .stats strong:nth-child(2) {
-  margin-left: 28px;
 }
 
 

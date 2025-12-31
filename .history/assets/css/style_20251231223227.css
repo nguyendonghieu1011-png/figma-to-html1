@@ -34,7 +34,6 @@ a {
 }
 
 .header.fixed {
-  z-index: 1;
   position: sticky;
   top: -28px;
 }
@@ -230,10 +229,6 @@ a {
 
 .hero .desc-recent {
   margin-top: 35px;
-}
-
-.hero .stats {
-  margin-top: 8px;
 }
 
 .hero .stats strong {
