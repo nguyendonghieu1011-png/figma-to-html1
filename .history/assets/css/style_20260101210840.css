@@ -64,10 +64,9 @@ a {
   font-weight: 600;
 }
 
-.btn:hover {
+.btn-sign-up:hover {
   /* background-color: #5b5d54; */
-  opacity: 0.9;
-  cursor: pointer;
+  opacity: 0.9
 }
 
 
@@ -218,7 +217,7 @@ a {
 }
 
 .hero-cta {
-  background-color: #e2d706;
+  background-color: #b7ae07;
   min-width: 170px;
   line-height: 35px;
   margin-right: 20px;
@@ -235,7 +234,7 @@ a {
 
 
 .hero-cta:hover {
-  background-color: rgb(235, 166, 3);
+  background-color: #7e7c05;
 }
 
 .cta-group span {
@@ -287,127 +286,8 @@ a {
   margin-top: 135px;
 }
 
-.popular-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .popular-top .desc{
   margin-top: 16px;
   width: 458px;
-  color: #555555;
-  font-size: 1.8rem;
-  line-height: 1.67;
+  color: #626161
 }
-
-.popular-top .controls {
-  display: flex;
-  gap: 18px;
-}
-
-.popular .control-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: transparent;
-  width: 40px;
-  height: 40px;
-  padding: 10px 15px;
-  border-radius: 999px;
-  color: rgb(235, 166, 3);
-  border: 1px solid rgb(235, 166, 3);
-  
-}
-
-.popular .control-btn:hover {
-  background-color: rgb(235, 166, 3);;
-  color: #fff;
-   cursor: pointer;
-}
-
-.popular .course-list {
-  margin-top: 55px;
-  display: flex;
-  align-items: baseline;
-  gap: 30px;
-}
-
-.popular .course-item {
-  border-radius: 12px;
-  border: 1px solid rgb(225, 224, 224);
-  background-color: #fff;
-}
-
-.popular .course-item:hover {
-  border: 1px solid transparent;
-  border-radius: 12px;
-  background-color: #fff;
-  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
-}
-
-.popular .course-item .thumb {
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  width: 100%;
-  height: 278px;
-  object-fit: cover;
-}
-
-.popular .course-item .info {
-  padding: 16px 22px 22px;
-}
-
-.popular .course-item .foot,
-.popular .course-item .rating,
-.popular .course-item .head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.popular .course-item .value {
-  margin-left: 6px;
-  color: #fea31b;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.popular .course-item .title a{
-  color: #171100;
-  font-style: 1.8rem;
-  font-weight: 600;
-  line-height: 30px;
-}
-
-.popular .course-item .desc {
-  margin-top: 6px;
-  color: #5f5b53;
-  font-size: 14px;
-  line-height: 26px;
-}
-
-.popular .course-item .foot {
-  margin-top: 12px;
-}
-
-.popular .course-item .price {
-  font-style: 1.8rem;
-  font-weight: 600;
-  line-height: 30px;
-}
-
-.popular .course-item .btn-book {
-  border: none;
-}
-
-.popular .course-item .btn-book:hover {
-  background-color:#fea31b;
-  /* cursor: pointer */
-}
-
-
-
-
-
-

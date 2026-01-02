@@ -373,8 +373,7 @@ a {
   line-height: 28px;
 }
 
-.popular .course-item .title a{
-  color: #171100;
+.popular .course-item .title {
   font-style: 1.8rem;
   font-weight: 600;
   line-height: 30px;
